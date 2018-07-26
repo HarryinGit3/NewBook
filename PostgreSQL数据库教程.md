@@ -1,1 +1,1 @@
-# Postgresql数据库教程(1)
+# PostgreSQL数据库教程(1)
