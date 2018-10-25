@@ -28,3 +28,8 @@ def hello_world():
 if __name__ =='__main__':
     app.run()
 ```
+### 设置debug模式：
+1.在app.run()中传入一个关键字参数`debug`,`app.run(debug=True)`，就设置当前项目为debug模式。
+2.debug模式的两大功能：
+  当程序中出现问题的时候，可以在页面中看到错误信息和出错的位置。
+  只要修改了项目中的`python`文件，程序会自动加载，不需要手动重新设置服务器。
